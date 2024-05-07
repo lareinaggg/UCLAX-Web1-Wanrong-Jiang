@@ -73,8 +73,88 @@ const Essay = () => {
                 functionality on top of Git, making it easier for developers to
                 collaborate on projects and share their code with others.
             </SingleEssay>
-            <SingleEssay question={`Q3: Sample Question...`}>
-                Answer 3 goes here.
+            <SingleEssay
+                question={`Q3: What is the difference between JQuery and React?`}
+            >
+                jQuery and React are both popular JavaScript libraries used for
+                building web applications, but they serve different purposes and
+                have distinct approaches to front-end development. jQuery is a
+                lightweight, feature-rich JavaScript library that simplifies
+                HTML document traversal and manipulation, event handling, and
+                animation. It provides a concise and easy-to-use syntax for
+                performing common tasks, such as selecting elements, modifying
+                CSS styles, and handling user interactions. jQuery is primarily
+                focused on enhancing the functionality and interactivity of web
+                pages in a simple and efficient manner. It works well for small
+                to medium-sized projects and is widely supported across
+                different browsers. On the other hand, React is a powerful
+                JavaScript library developed by Facebook for building user
+                interfaces. Unlike jQuery, React follows a component-based
+                architecture, where the UI is divided into reusable and
+                composable components. These components encapsulate their own
+                state and behavior, making it easier to manage complex UIs and
+                maintain code consistency. React utilizes a virtual DOM
+                (Document Object Model) to efficiently update and render UI
+                components, minimizing the need for manual DOM manipulation. It
+                also promotes a declarative programming paradigm, allowing
+                developers to describe how the UI should look at any given
+                state, rather than imperatively manipulating the DOM. In
+                summary, while jQuery is focused on simplifying DOM manipulation
+                and providing utility functions for web development, React is
+                geared towards building dynamic and interactive user interfaces
+                through a component-based approach and virtual DOM rendering.
+                Depending on the requirements of the project and the developer's
+                preferences, either jQuery or React can be a suitable choice for
+                front-end development.
+            </SingleEssay>
+            <SingleEssay
+                question={`What is the difference between a Front-End and Back-End Developer?`}
+            >
+                Front-end and back-end development are two distinct areas within
+                the realm of software development, each with its own focus,
+                responsibilities, and technologies. Understanding the difference
+                between these roles is essential for anyone interested in
+                pursuing a career in web development or software engineering.
+                Front-end development, often referred to as client-side
+                development, involves creating the visible parts of a website or
+                web application that users interact with directly. Front-end
+                developers primarily work on the user interface (UI) and user
+                experience (UX), ensuring that the website or application is
+                visually appealing, easy to navigate, and responsive across
+                different devices and screen sizes. They use languages such as
+                HTML (Hypertext Markup Language), CSS (Cascading Style Sheets),
+                and JavaScript to build and style web pages, as well as
+                frameworks and libraries like React, Angular, or Vue.js to
+                streamline development and enhance functionality. Front-end
+                developers are responsible for translating design mockups and
+                wireframes into functional code, implementing animations and
+                interactive elements, and optimizing performance for a smooth
+                user experience. They collaborate closely with designers to
+                ensure that the final product aligns with the intended vision
+                and meets usability standards. On the other hand, back-end
+                development, also known as server-side development, focuses on
+                the behind-the-scenes logic and functionality of a website or
+                application. Back-end developers build and maintain the server,
+                database, and application logic that power the front-end
+                interface. They work with programming languages like Python,
+                Ruby, Java, or Node.js, as well as frameworks such as Django,
+                Ruby on Rails, Spring, or Express.js, to create dynamic and
+                scalable web applications. Back-end developers handle tasks such
+                as database management, user authentication, server
+                configuration, API (Application Programming Interface)
+                development, and business logic implementation. They ensure data
+                integrity, security, and performance on the server side, often
+                working closely with front-end developers and other team members
+                to integrate front-end and back-end components seamlessly. In
+                summary, while front-end developers focus on creating the visual
+                and interactive aspects of a website or application that users
+                interact with directly, back-end developers focus on building
+                and maintaining the server-side infrastructure and functionality
+                that support the front-end interface. Both roles are crucial for
+                delivering high-quality web experiences, and many developers
+                specialize in either front-end or back-end development, while
+                others have skills in both areas, known as full-stack
+                developers.
             </SingleEssay>
         </EssayStyled>
     );
