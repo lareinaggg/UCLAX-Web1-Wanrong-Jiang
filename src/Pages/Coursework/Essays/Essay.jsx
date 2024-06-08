@@ -108,7 +108,7 @@ const Essay = () => {
                 front-end development.
             </SingleEssay>
             <SingleEssay
-                question={`What is the difference between a Front-End and Back-End Developer?`}
+                question={`Q4: What is the difference between a Front-End and Back-End Developer?`}
             >
                 Front-end and back-end development are two distinct areas within
                 the realm of software development, each with its own focus,
@@ -155,6 +155,108 @@ const Essay = () => {
                 specialize in either front-end or back-end development, while
                 others have skills in both areas, known as full-stack
                 developers.
+            </SingleEssay>
+            <SingleEssay
+                question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
+            >
+                In React, linking to resources such as images, stylesheets, or
+                other assets can be accomplished in a few different ways,
+                primarily through Root Relative and Document Relative
+                paths.Root-Relative Paths Root-relative paths start from the
+                root of the web application, regardless of the current
+                document’s location. In React, a root-relative path typically
+                starts with a slash (/). This method is beneficial when you want
+                to reference resources that are consistently located relative to
+                the root of your application, ensuring the path remains valid
+                regardless of where in the directory structure the referencing
+                file resides.Document-Relative Paths Document-relative paths are
+                relative to the current document’s location. These paths do not
+                start with a slash but with the directory or file name, and they
+                change based on the file's position within the directory
+                structure. They are suitable for referencing resources that are
+                in a known location relative to the referencing file. In
+                conclusion, Root-relative paths provide a straightforward way to
+                link resources consistently from the application's root.
+                Document-relative paths are convenient for resources located
+                near the referencing files. Understanding these methods and
+                choosing the appropriate one based on the context can greatly
+                enhance resource management in React projects.
+            </SingleEssay>
+            <SingleEssay
+                question={`Q6: What is the difference between jpg, gif, png and svg images?`}
+            >
+                When it comes to digital images, the file formats JPEG (JPG),
+                GIF, PNG, and SVG each have unique characteristics and uses.
+                Understanding the differences between these formats can help you
+                choose the right one for your needs. JPEG (JPG) JPEG, short for
+                Joint Photographic Experts Group, is a commonly used format for
+                photographic images. The primary advantage of JPEG is its
+                ability to compress image data to significantly reduce file
+                size, which is beneficial for web use and storage efficiency.
+                However, JPEG uses lossy compression, meaning some image quality
+                is sacrificed to achieve smaller file sizes. This format is
+                ideal for photographs and images with gradients and many colors,
+                but it's not suitable for images requiring transparency or for
+                graphics with sharp edges and text.GIF GIF, which stands for
+                Graphics Interchange Format, is known for its support of simple
+                animations. It uses a limited color palette of 256 colors,
+                making it less ideal for complex images but suitable for simpler
+                graphics, logos, and icons. GIF also supports transparency but
+                in a binary manner (either fully transparent or fully opaque).
+                Due to its limited color range and support for animations, GIF
+                is often used for web graphics, simple animations, and memes.
+                However, its file sizes can be relatively large for complex
+                animations. PNG PNG, or Portable Network Graphics, is a
+                versatile image format that supports lossless compression, which
+                means it maintains image quality without losing any data. PNG is
+                excellent for images that require transparency, as it supports
+                varying levels of opacity (alpha channel). This makes PNG ideal
+                for web graphics, logos, and images with text, sharp lines, and
+                transparent backgrounds. While PNG files can be larger than
+                JPEGs due to their lossless nature, they are preferred when
+                image quality and transparency are important. SVG SVG, or
+                Scalable Vector Graphics, is fundamentally different from the
+                other formats because it is a vector-based format rather than
+                raster-based. SVG images are defined using XML text files, which
+                describe the shapes, colors, and lines that make up the image.
+                This means SVG images can be scaled to any size without losing
+                quality, making them ideal for logos, icons, and illustrations
+                that need to be displayed at various sizes. SVG also supports
+                interactivity and animation, and it is widely used in web design
+                for responsive graphics. However, SVG is not suitable for
+                detailed photographic images. In conclusion, JPEG is best for
+                photographs and detailed images where file size is a concern.
+                GIF is suitable for simple animations and graphics with limited
+                colors. PNG is preferred for high-quality images that require
+                transparency and sharp detail. SVG is ideal for scalable
+                graphics such as logos and icons. Understanding these
+                differences ensures that you select the appropriate format to
+                achieve the best visual and performance results for your images.
+            </SingleEssay>
+            <SingleEssay
+                question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
+            >
+                Product Manager: Responsible for defining the product vision,
+                strategy, and roadmap. They prioritize features, align the team
+                with business goals, and act as the liaison between stakeholders
+                and the development team. Scrum Master: Facilitates the Scrum
+                process, ensures the team adheres to Agile practices, removes
+                obstacles, and helps the team improve productivity and
+                collaboration. UX Designer: Focuses on user experience by
+                designing intuitive and user-friendly interfaces. They conduct
+                user research, create wireframes, and ensure the product meets
+                user needs and expectations. Developer/Engineer: Writes code to
+                build the product. They implement features, fix bugs, and
+                collaborate with other team members to deliver high-quality
+                software. QA/SDET (Quality Assurance/Software Development
+                Engineer in Test): Ensures the product meets quality standards.
+                They write automated tests, conduct manual testing, identify
+                defects, and work closely with developers to ensure a
+                high-quality product. DevOps: Manages the infrastructure,
+                deployment, and continuous integration/continuous deployment
+                (CI/CD) processes. They ensure that code can be efficiently and
+                reliably deployed to production and maintain system reliability
+                and performance.
             </SingleEssay>
         </EssayStyled>
     );
