@@ -7,18 +7,18 @@ export const tabbedData = [
         id: 1,
         image: image1,
         title: "About",
-        text: "<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey  to fit your lifestyle.</p>",
+        text: "<p>Welcome to our coffee haven! we craft every cup with passion and precision. Enjoy our cozy atmosphere, where the finest beans meet skilled baristas, creating your perfect coffee experience. Join us for a delightful blend of community and flavor.</p>",
     },
     {
         id: 2,
         image: image2,
         title: "Mission",
-        text: "<p>At Decimate, we believe that just like your fitness journey, nutrition is not a “one size fits all”.  Our highly trained nutrition coaches work alongside you to help you achieve your optimal health and fitness goals.  Through one-on-one coaching and personalized nutrition programming, our coaches are able to determine the best nutrition plan for you.</p>",
+        text: "<p>Our mission is to brew exceptional coffee while fostering a warm, welcoming community. We are dedicated to sourcing the finest beans and crafting each cup with care, creating a haven for coffee lovers to connect and savor every moment.</p>",
     },
     {
         id: 3,
         image: image3,
         title: "Vision",
-        text: "<p>With our highly qualified and trained coach, Kara Smith, CrossFit Decimate is able to provide adaptive and inclusive workouts for each individual athlete, whether you are injured or working with a disability.  At CrossFit Decimate we believe that all people can workout and want to workout, they just need to be guided on how to achieve their goals.  Coach Kara offers modifications to each workout to help each athlete achieve their own level of success.  </p>",
+        text: "<p>Our vision is to be the heart of the community, where every cup of coffee inspires connection, creativity, and comfort. We aim to set the standard for excellence in coffee and hospitality, creating a beloved destination for all. </p>",
     },
 ];

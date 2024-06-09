@@ -6,120 +6,93 @@ import image5 from "./img/Amber-Dyett.jpg";
 import image6 from "./img/Dr-Skyler-Harms.jpg";
 import image7 from "./img/Elisa-Eastwood.jpg";
 import image8 from "./img/Jaque-Ong.jpg";
-import image9 from "./img/John-Giron.jpg";
-import image10 from "./img/Karlie-Goretski.jpg";
-import image11 from "./img/Shana-Millspaugh.jpg";
 
 export const staffData = [
     {
         id: 1,
         image: image1,
-        name: "Alex Esqueda",
-        yearStarted: 2013,
+        name: "Cafe Latte",
         accolades: [
-            "Co-Owner, PageMeta Coach ",
-            "Program Designer CrossFit Decimate ",
-            "Decimate Performance Training ",
-            "CCFT/L-3 Certified CrossFit Trainer",
+            "Rich, creamy blend of espresso and steamed milk ",
+            "Smooth and velvety texture ",
+            "Ideal for any time of day, offering a comforting and satisfying experience ",
         ],
     },
     {
         id: 2,
         image: image2,
-        name: "Silvie Esqueda",
-        yearStarted: 2013,
+        name: "Cappuccino",
+
         accolades: [
-            "Co-Owner & Coach",
-            "CF-L2",
-            "USAW L-1",
-            "Precision Nutrition L-1",
+            "Rich espresso base blended with velvety steamed milk",
+            "Indulge in a perfect balance of bold coffee flavor and creamy texture",
+            "Savor the aromatic notes and smooth mouthfeel with every sip",
+            "A classic Italian favorite, crafted with expertise for your enjoyment",
         ],
     },
     {
         id: 3,
         image: image3,
-        name: "Kara Smith",
-        yearStarted: 2012,
+        name: "Matcha Latte",
+
         accolades: [
-            "Lead Coach & Operations Assistant   ",
-            "​CF-L2 Trainer",
-            "ATA Certified: Adaptive & Inclusive Trainer",
-            "The Phoenix (Volunteer)",
+            "Rich and creamy matcha latte crafted with high-quality ceremonial grade matcha powder",
+            "Offers a boost of energy and antioxidants, perfect for a morning pick-me-up or afternoon treat",
+            "Can be customized with your choice of milk and sweetener for a personalized touch",
         ],
     },
     {
         id: 4,
         image: image4,
-        name: "Brook",
-        yearStarted: 2019,
+        name: "Strawberry Smoothie",
         accolades: [
-            "Coach: Group Classes & Fundementals",
-            "CF-L2 , Trainer",
-            "ISSA Personal Trainer ",
-            "Nutrition Coach",
+            "Refreshing blend of ripe, juicy strawberries for a burst of natural sweetness",
+            "Made with real fruit, no artificial flavors or preservatives",
+            "Ideal for breakfast, a midday snack, or a post-workout refreshment",
         ],
     },
     {
         id: 5,
         image: image5,
-        name: "Amber Dyett",
-        yearStarted: 2016,
-        accolades: ["Coach", "CF-L2", "PN-1", "BIRTHFIT Certified"],
+        name: "Americano",
+
+        accolades: [
+            "Classic and robust, our Americano is a perfect blend of rich espresso and hot water",
+            "Crafted with the finest coffee beans, ensuring a smooth and balanced flavor",
+            "Available hot or iced, catering to your preference for any season",
+            "Perfect for a quick energy boost or a leisurely sip throughout the day",
+        ],
     },
     {
         id: 6,
         image: image6,
-        name: "Dr Skyler Harms",
-        yearStarted: 2010,
+        name: "Cold Brew",
+
         accolades: [
-            "Physical Therapist",
-            "Doctor of Physical Therapy",
-            "Titleist Performance Institute Certified",
-            "Dry Needling Level 2",
+            "Brewed with precision using high-quality coffee beans",
+            "Refreshing and energizing, perfect for hot summer days",
+            "Lower in acidity compared to traditional hot brewed coffee",
+            "Ideal for on-the-go lifestyles, providing a convenient caffeine boost without compromising taste",
         ],
     },
     {
         id: 7,
         image: image7,
-        name: "Elisa Eastwood",
-        yearStarted: 2014,
+        name: "Espresso",
         accolades: [
-            "Coach: Group Classes & Fundamentals",
-            "​CF-L1",
-            "2018 CF Regional Competitor",
+            "Ideal for on-the-go lifestyles, providing a convenient caffeine boost without compromising taste",
+            "Made by forcing hot water through finely-ground coffee beans",
+            "Crema layer on top adds a smooth texture and depth of flavor",
         ],
     },
     {
         id: 8,
         image: image8,
-        name: "Jaque Ong",
-        yearStarted: 2012,
+        name: "Hot Tea",
+
         accolades: [
-            "PageMeta Olympic Lifting Coach",
-            "U.S.A.W",
-            "IKKF Instructor",
-            "Sports & Performance Cert Trainer",
+            "Choose from a variety of aromatic blends, carefully curated to tantalize your taste buds",
+            "Indulge in the soothing benefits of herbal, green, black, and fruity teas",
         ],
-    },
-    {
-        id: 9,
-        image: image9,
-        name: "John Giron",
-        yearStarted: 2010,
-        accolades: ["Coach: Group Classes & Fundamentals", "CF-L1"],
-    },
-    {
-        id: 10,
-        image: image10,
-        name: "Karlie Goretski",
-        yearStarted: 2015,
-        accolades: ["Coach: Kids CF", "CF-L1"],
-    },
-    {
-        id: 11,
-        image: image11,
-        name: "Shana Millspaugh",
-        yearStarted: 2013,
-        accolades: ["Coach", "CF-L1", "USAW L-1"],
     },
 ];

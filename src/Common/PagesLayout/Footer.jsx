@@ -1,18 +1,19 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 /* Components ---------------------------*/
-import Inset from './Inset.jsx';
-import SiteLogo from './SiteLogo/SiteLogo.jsx';
+import Inset from "./Inset.jsx";
+import SiteLogo from "./SiteLogo/SiteLogo.jsx";
 
 const Footer = () => {
     return (
-        <FooterStyled className='Footer'>
+        <FooterStyled className="Footer">
             <Inset>
                 <div className="logo">
                     <SiteLogo />
                 </div>
                 <h2>
-                    CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and Respect :: Colorado Springs, CO
+                    123 Coffee Lane, City, State, ZIP Phone: (123) 456-7890 |
+                    Email: info@coffeeshop.com
                 </h2>
                 <div className="copyright">
                     &copy; 2023. All rights reserved.
@@ -20,12 +21,13 @@ const Footer = () => {
             </Inset>
         </FooterStyled>
     );
-}
+};
 
 export default Footer;
 
 const FooterStyled = styled.footer`
-    color: white;
+    background-color: #ffeede;
+    color: #6b2a00;
 
     padding: 20px 0px;
 
@@ -41,14 +43,13 @@ const FooterStyled = styled.footer`
     }
 
     h2 {
-        color: white;
+        color: #6b2a00;
         margin: 5px 0px;
         font-size: 14px;
     }
 
     .copyright {
         font-size: 14px;
-        color: white;
+        color: #6b2a00;
     }
-
 `;

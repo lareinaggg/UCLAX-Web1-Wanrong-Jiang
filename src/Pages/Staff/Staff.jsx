@@ -6,8 +6,8 @@ const Staff = () => {
     return (
         <StaffStyled>
             <Inset>
-                <h1>Staff</h1>
-                <StaffList />
+                <h1>Menu</h1>
+                <StaffList />;
             </Inset>
         </StaffStyled>
     );

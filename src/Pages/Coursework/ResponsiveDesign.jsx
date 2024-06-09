@@ -33,7 +33,7 @@ const ResponsiveDesignStyled = styled.div`
         font-size: 50px;
         text-align: center;
         color: white;
-        background-color: teal;
+        background-color: #ffb901;
         margin: 10px;
     }
 

@@ -19,4 +19,10 @@ const Header = () => {
 
 export default Header;
 
-const HeaderStyled = styled.header``;
+const HeaderStyled = styled.header`
+    background-color: #ffeede;
+
+    &.selected {
+        color: #6b2a00;
+    }
+`;

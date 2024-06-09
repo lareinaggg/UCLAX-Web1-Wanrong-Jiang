@@ -98,7 +98,7 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #6b2a00;
         padding: 10px 5px;
         color: #fff;
         width: 150px;
