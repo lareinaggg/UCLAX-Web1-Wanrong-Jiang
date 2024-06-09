@@ -7,7 +7,7 @@ const Staff = () => {
         <StaffStyled>
             <Inset>
                 <h1>Menu</h1>
-                <StaffList />;
+                <StaffList />
             </Inset>
         </StaffStyled>
     );

@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import Accolades from "./Accolades/Accolades";
+import ModalImage from "react-modal-image";
 
 const StaffMember = ({ member }) => {
     const { name, image, accolades } = member;
 
     return (
         <StaffMemberStyled>
-            <img src={image} alt={name} />
+            <ModalImage small={image} large={image} alt={name} />
             <h3>{name}</h3>
             <div className="bottom">
                 <Accolades accolades={accolades} />
@@ -24,7 +25,7 @@ StaffMember.propTypes = {
 };
 
 const StaffMemberStyled = styled.div`
-    img {
+    .modal-image img {
         width: 100%;
         display: block;
     }
