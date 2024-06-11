@@ -16,6 +16,7 @@ const myFnToPas = () => {
 
 myConsumerFn(myFnToPas);
 
+// pass anonymous functions
 myConsumerFn(() => {
     console.log("My callback anonymous");
 });

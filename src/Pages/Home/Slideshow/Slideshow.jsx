@@ -10,7 +10,7 @@ import Slide from "./Slide";
 const Slideshow = () => {
     return (
         <SlideshowStyled>
-            <Carousel infiniteLoop={true} autoPlay={true}>
+            <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false}>
                 {slidesData.map((slide) => {
                     return <Slide key={slide.id} slide={slide} />;
                 })}

@@ -23,10 +23,10 @@ const person1 = {
     colors: ["red", "green", "blue"],
 };
 const person2 = {
-    first: "Lareina",
+    first: "Jonny",
     last: "Jiang",
-    email: "lareinagd@gmail.com",
-    colors: ["red", "green", "blue"],
+    email: "abcde@gmail.com",
+    colors: ["cyan", "magenta", "yellow"],
 };
 
 readPerson(person1);
